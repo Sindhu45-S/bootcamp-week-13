@@ -7,7 +7,7 @@
     "dev": "next dev --port 3000",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "next lint --dir app --dir lib",
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
@@ -24,8 +24,6 @@
     "@types/react-dom": "19.2.2",
     "eslint": "^10.0.3",
     "eslint-config-next": "^16.2.0",
-    "typescript": "5.9.2",
-    "lint": "next lint --dir app --dir lib"
+    "typescript": "5.9.2"
   }
 }
-
